@@ -12,13 +12,13 @@ install:
 before_script:
   - env | sort
   - cd "$VERSION"
-  - image="le-nginx:${VERSION}"
+  - image="$DOCKER_USERNAME/le-nginx:${VERSION}"
 
 script:
   - travis_retry docker build -t "$image" .
   - ~/official-images/test/run.sh "$image"
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push "$DOCKER_USERNAME/$image"
+  - docker push "$image"
 
 after_script:
   - docker images
