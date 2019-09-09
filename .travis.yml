@@ -2,16 +2,13 @@ services: docker
 language: bash
 
 env:
-  - VERSION=1.13.11-alpine
-  - VERSION=1.15.8-alpine
-  - VERSION=1.17.0-alpine
+  - VERSION=1.17.3-alpine
 
 install:
   - git clone https://github.com/docker-library/official-images.git ~/official-images
 
 before_script:
   - env | sort
-  - cd "$VERSION"
   - image="$DOCKER_USERNAME/le-nginx:${VERSION}"
 
 script:
