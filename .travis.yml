@@ -38,7 +38,6 @@ after_script:
   - docker images
 
 before_deploy:
-  - cp new_ver.txt old_ver.txt
   - git checkout master
   - git add -A
   - git commit --message "Software Updated"
