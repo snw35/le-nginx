@@ -6,4 +6,4 @@ Please see the [le-docker](https://github.com/snw35/le-docker) repo for full dep
 
 ***
 
- * [Travis CI: ![Build Status](https://travis-ci.org/snw35/le-nginx.svg?branch=master)](https://travis-ci.org/snw35/le-nginx)
+ * [Travis CI: ![Build Status](https://travis-ci.com/snw35/le-nginx.svg?branch=master)](https://travis-ci.com/github/snw35/le-nginx)
