@@ -1,2 +1,6 @@
 import:
 - snw35/cicd:travis/travis.yml@main
+
+env:
+  global:
+    - TAG_COMMAND='grep "FROM" Dockerfile | cut -d " " -f 2 | cut -d ":" -f 2'
