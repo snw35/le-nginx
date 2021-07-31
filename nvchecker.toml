@@ -1,3 +1,7 @@
 [__config__]
 oldver = "old_ver.json"
 newver = "new_ver.json"
+
+[NGINX]
+container = "nginx"
+registry = "docker.io"
