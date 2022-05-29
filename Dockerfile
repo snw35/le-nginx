@@ -1,4 +1,4 @@
-FROM nginx:1.21.6-alpine
+FROM nginx:1.22-alpine
 
 ENV NGINX_VERSION 1.20-alpine
 
