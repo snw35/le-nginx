@@ -6,7 +6,3 @@ newver = "new_ver.json"
 source = "container"
 container = "library/nginx"
 include_regex = "\\d+\\.\\d+\\.?(\\d+)?-alpine(?!-perl)"
-
-[NGINX]
-container = "nginx"
-registry = "docker.io"
