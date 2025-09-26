@@ -6,3 +6,9 @@ newver = "new_ver.json"
 source = "container"
 container = "library/nginx"
 include_regex = "\\d+\\.\\d+\\.?(\\d+)?-alpine(?!-perl)"
+
+[NGINX]
+source = "github"
+github = "nginx/nginx"
+use_max_tag = true
+prefix = "release-"

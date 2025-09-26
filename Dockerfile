@@ -1,6 +1,6 @@
 FROM nginx:1.25.2-alpine
 
-ENV NGINX_VERSION 1.23.1-alpine
+ENV NGINX_VERSION 1.25.2-alpine
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 
