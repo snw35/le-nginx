@@ -20,5 +20,5 @@ jobs:
   call-upstream-workflow:
     uses: snw35/cicd/.github/workflows/github.yaml@main
     with:
-      TAG_COMMAND: 'grep FROM ./Dockerfile | tr ":" "\n" | tail -n 1'
+      IMAGE_TAG: 'NGINX_VERSION'
     secrets: inherit
