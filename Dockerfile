@@ -1,6 +1,6 @@
-FROM nginx:1.29.3-alpine
+FROM nginx:1.29.4-alpine
 
-ENV NGINX_VERSION 1.29.3
+ENV NGINX_VERSION 1.29.4
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 
