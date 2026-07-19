@@ -2,13 +2,13 @@
   "version": 2,
   "data": {
     "BASE": {
-      "version": "1.31.2-alpine"
+      "version": "1.31.3-alpine"
     },
     "NGINX": {
-      "version": "1.31.2",
-      "gitref": "refs/tags/release-1.31.2",
-      "revision": "fe0e735ee2f17967871863b0d25607990eda0ce9",
-      "url": "https://github.com/nginx/nginx/releases/tag/release-1.31.2"
+      "version": "1.31.3",
+      "gitref": "refs/tags/release-1.31.3",
+      "revision": "a885808aa592eea32c8064624717be3d94fbdfe7",
+      "url": "https://github.com/nginx/nginx/releases/tag/release-1.31.3"
     }
   }
 }
